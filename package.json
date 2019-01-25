@@ -4,7 +4,9 @@
   "description": "v10",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint *.js **/*.js"
+    "eslint": "eslint *.js **/*.js",
+    "start": "node app.js",
+    "test": "npm run eslint"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,8 @@
     "nodemon": "^1.18.9"
   },
   "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jsdom": "^13.1.0"
   }
 }
